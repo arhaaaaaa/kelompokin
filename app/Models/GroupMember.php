@@ -4,11 +4,11 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Student extends Model
+class GroupMember extends Model
 {
     protected $fillable = [
-        'nama',
-        'npm',
-        'kelas',
-    ];
+    'group_session_id',
+    'student_id',
+    'nomor_kelompok'
+];
 }

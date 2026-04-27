@@ -2,6 +2,9 @@
     <a href="/">Dashboard</a> |
     <a href="/siswa">Daftar Siswa</a> |
     <a href="/kelompok">Generate Kelompok</a>
+    <a href="/kelompok/download/{{ $session_id }}">
+    <button>Download CSV</button>
+</a>
 </nav>
 
 <hr>
